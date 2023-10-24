@@ -1,0 +1,275 @@
+Variance explained by each SVD component: [0.00170026 0.00418726 0.00392477]
+Total variance explained: 0.0098
+Variance explained by each SVD component: [0.0027102  0.01161484 0.00980296]
+Total variance explained: 0.0241
+Variance explained by each SVD component: [0.00166482 0.00440839 0.00390813]
+Total variance explained: 0.0100
+Variance explained by each SVD component: [0.00427557 0.01140733 0.01078099]
+Total variance explained: 0.0265
+Variance explained by each SVD component: [0.00167706 0.00459728 0.00396859]
+Total variance explained: 0.0102
+Variance explained by each SVD component: [0.00301859 0.01065318 0.01044822]
+Total variance explained: 0.0241
+Variance explained by each SVD component: [0.0017015  0.00469958 0.00386476]
+Total variance explained: 0.0103
+Variance explained by each SVD component: [0.0028425  0.01123617 0.01036699]
+Total variance explained: 0.0244
+Variance explained by each SVD component: [0.00169562 0.00473879 0.00431821]
+Total variance explained: 0.0108
+Variance explained by each SVD component: [0.01857958 0.00498768 0.01085471]
+Total variance explained: 0.0344
+Variance explained by each SVD component: [0.00173352 0.00469479 0.00388686]
+Total variance explained: 0.0103
+Variance explained by each SVD component: [0.0031355  0.01177101 0.01089394]
+Total variance explained: 0.0258
+Variance explained by each SVD component: [0.00167936 0.00417633 0.00392677]
+Total variance explained: 0.0098
+Variance explained by each SVD component: [0.00327512 0.01123523 0.0107096 ]
+Total variance explained: 0.0252
+Variance explained by each SVD component: [0.00165705 0.00473666 0.00399144]
+Total variance explained: 0.0104
+Variance explained by each SVD component: [0.00341212 0.01091757 0.01087984]
+Total variance explained: 0.0252
+Variance explained by each SVD component: [0.00165143 0.00441366 0.00419514]
+Total variance explained: 0.0103
+Variance explained by each SVD component: [0.00324686 0.01105181 0.01016559]
+Total variance explained: 0.0245
+Variance explained by each SVD component: [0.00160589 0.00467493 0.00394067]
+Total variance explained: 0.0102
+Variance explained by each SVD component: [0.00430782 0.01170153 0.01115833]
+Total variance explained: 0.0272
+Fold 1 Accuracy: 0.44
+Fold 2 Accuracy: 0.31
+Fold 3 Accuracy: 0.50
+Fold 4 Accuracy: 0.38
+Fold 5 Accuracy: 0.43
+Fold 6 Accuracy: 0.38
+Fold 7 Accuracy: 0.43
+Fold 8 Accuracy: 0.43
+Fold 9 Accuracy: 0.39
+Fold 10 Accuracy: 0.42
+Fold 1 Classification Report:
+              precision    recall  f1-score   support
+
+           G       0.20      0.07      0.10        15
+          MA       0.00      0.00      0.00        21
+          PG       0.52      0.64      0.58       103
+           R       0.35      0.34      0.35        58
+
+    accuracy                           0.44       197
+   macro avg       0.27      0.26      0.26       197
+weighted avg       0.39      0.44      0.41       197
+
+Fold 2 Classification Report:
+              precision    recall  f1-score   support
+
+           G       0.00      0.00      0.00        10
+          MA       0.02      0.04      0.03        23
+          PG       0.48      0.47      0.47       102
+           R       0.23      0.19      0.21        62
+
+    accuracy                           0.31       197
+   macro avg       0.18      0.18      0.18       197
+weighted avg       0.32      0.31      0.31       197
+
+Fold 3 Classification Report:
+              precision    recall  f1-score   support
+
+           G       0.00      0.00      0.00         8
+          MA       0.26      0.20      0.23        30
+          PG       0.54      0.76      0.63       101
+           R       0.48      0.26      0.34        58
+
+    accuracy                           0.50       197
+   macro avg       0.32      0.31      0.30       197
+weighted avg       0.46      0.50      0.46       197
+
+Fold 4 Classification Report:
+              precision    recall  f1-score   support
+
+           G       0.00      0.00      0.00        13
+          MA       0.19      0.27      0.23        22
+          PG       0.49      0.57      0.53       104
+           R       0.22      0.17      0.19        58
+
+    accuracy                           0.38       197
+   macro avg       0.23      0.25      0.24       197
+weighted avg       0.35      0.38      0.36       197
+
+Fold 5 Classification Report:
+              precision    recall  f1-score   support
+
+           G       0.00      0.00      0.00        12
+          MA       0.27      0.28      0.27        40
+          PG       0.49      0.79      0.61        87
+           R       0.31      0.09      0.14        58
+
+    accuracy                           0.43       197
+   macro avg       0.27      0.29      0.25       197
+weighted avg       0.36      0.43      0.36       197
+
+Fold 6 Classification Report:
+              precision    recall  f1-score   support
+
+           G       0.00      0.00      0.00        18
+          MA       0.10      0.08      0.09        24
+          PG       0.44      0.70      0.54        89
+           R       0.31      0.15      0.20        66
+
+    accuracy                           0.38       197
+   macro avg       0.21      0.23      0.21       197
+weighted avg       0.31      0.38      0.32       197
+
+Fold 7 Classification Report:
+              precision    recall  f1-score   support
+
+           G       0.00      0.00      0.00        10
+          MA       0.22      0.13      0.16        31
+          PG       0.49      0.77      0.60        86
+           R       0.35      0.21      0.27        70
+
+    accuracy                           0.43       197
+   macro avg       0.26      0.28      0.26       197
+weighted avg       0.37      0.43      0.38       197
+
+Fold 8 Classification Report:
+              precision    recall  f1-score   support
+
+           G       0.00      0.00      0.00        13
+          MA       0.25      0.07      0.11        29
+          PG       0.48      0.79      0.60        98
+           R       0.22      0.11      0.14        57
+
+    accuracy                           0.43       197
+   macro avg       0.24      0.24      0.21       197
+weighted avg       0.34      0.43      0.35       197
+
+Fold 9 Classification Report:
+              precision    recall  f1-score   support
+
+           G       0.00      0.00      0.00        14
+          MA       0.20      0.08      0.11        38
+          PG       0.44      0.78      0.57        86
+           R       0.21      0.10      0.14        59
+
+    accuracy                           0.39       197
+   macro avg       0.21      0.24      0.20       197
+weighted avg       0.29      0.39      0.31       197
+
+Fold 10 Classification Report:
+              precision    recall  f1-score   support
+
+           G       0.00      0.00      0.00        18
+          MA       0.16      0.09      0.12        33
+          PG       0.47      0.74      0.58        95
+           R       0.31      0.18      0.23        51
+
+    accuracy                           0.42       197
+   macro avg       0.24      0.25      0.23       197
+weighted avg       0.33      0.42      0.36       197
+
+Fold 1 Confusion Matrix:
+[[ 1  0 11  3]
+ [ 1  0 12  8]
+ [ 3  8 66 26]
+ [ 0  1 37 20]]
+Fold 2 Confusion Matrix:
+[[ 0  2  6  2]
+ [ 0  1 12 10]
+ [ 0 26 48 28]
+ [ 0 15 35 12]]
+Fold 3 Confusion Matrix:
+[[ 0  0  8  0]
+ [ 0  6 20  4]
+ [ 1 11 77 12]
+ [ 0  6 37 15]]
+Fold 4 Confusion Matrix:
+[[ 0  1 10  2]
+ [ 0  6 14  2]
+ [ 0 13 59 32]
+ [ 0 11 37 10]]
+Fold 5 Confusion Matrix:
+[[ 0  3  6  3]
+ [ 0 11 25  4]
+ [ 0 14 69  4]
+ [ 0 13 40  5]]
+Fold 6 Confusion Matrix:
+[[ 0  2 14  2]
+ [ 0  2 16  6]
+ [ 3 10 62 14]
+ [ 0  6 50 10]]
+Fold 7 Confusion Matrix:
+[[ 0  2  6  2]
+ [ 0  4 18  9]
+ [ 0  3 66 17]
+ [ 1  9 45 15]]
+Fold 8 Confusion Matrix:
+[[ 0  0 11  2]
+ [ 0  2 23  4]
+ [ 1  5 77 15]
+ [ 1  1 49  6]]
+Fold 9 Confusion Matrix:
+[[ 0  1 10  3]
+ [ 0  3 27  8]
+ [ 1  6 67 12]
+ [ 1  5 47  6]]
+Fold 10 Confusion Matrix:
+[[ 0  2 16  0]
+ [ 0  3 24  6]
+ [ 0 11 70 14]
+ [ 1  3 38  9]]
+Mean Accuracy: 0.41
+
+
+              precision    recall  f1-score   
+
+           G       0.00      0.00      0.00        
+          MA       0.00      0.00      0.00        
+          PG       0.50      0.63      0.56       
+           R       0.25      0.22      0.24        
+
+           G       0.33      0.10      0.15        
+          MA       0.07      0.17      0.10        
+          PG       0.54      0.49      0.52      
+           R       0.29      0.21      0.24        
+
+           G       0.00      0.00      0.00         
+          MA       0.23      0.17      0.19        
+          PG       0.54      0.77      0.64     
+           R       0.30      0.14      0.19        
+
+           G       0.00      0.00      0.00        
+          MA       0.17      0.14      0.15        
+          PG       0.52      0.68      0.59       
+           R       0.31      0.22      0.26        
+
+           G       0.00      0.00      0.00        
+          MA       0.34      0.28      0.31        
+          PG       0.46      0.82      0.59        
+           R       0.17      0.03      0.06        
+
+           G       0.00      0.00      0.00        
+          MA       0.15      0.12      0.14        
+          PG       0.45      0.61      0.51        
+           R       0.36      0.30      0.33        
+
+           G       0.00      0.00      0.00        
+          MA       0.17      0.06      0.09        
+          PG       0.42      0.69      0.52      
+           R       0.43      0.27      0.33        
+
+           G       0.00      0.00      0.00        
+          MA       0.16      0.10      0.12        
+          PG       0.52      0.66      0.59        
+           R       0.40      0.37      0.39        
+
+           G       0.22      0.14      0.17        
+          MA       0.21      0.11      0.14        
+          PG       0.44      0.70      0.54        
+           R       0.31      0.17      0.22        
+
+           G       0.00      0.00      0.00        
+          MA       0.24      0.18      0.21        
+          PG       0.50      0.74      0.59        
+           R       0.30      0.18      0.22        
+
